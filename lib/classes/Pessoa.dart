@@ -18,4 +18,9 @@ class Pessoa {
   int? getIdade() {
     return _idade;
   }
+
+  Pessoa(String nome, int idade) {
+    _nome = nome;
+    _idade = idade;
+  }
 }
