@@ -19,8 +19,5 @@ class Pessoa {
     return _idade;
   }
 
-  Pessoa(String nome, int idade) {
-    _nome = nome;
-    _idade = idade;
-  }
+  Pessoa(this._nome, this._idade);
 }
